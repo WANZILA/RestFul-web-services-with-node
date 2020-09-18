@@ -64,3 +64,4 @@ doc/*.txt
 #ignore all .pdf files  in the doc/directory an any of its subdirectories 
 doc/**/*.pdf
 
+node_modules

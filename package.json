@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "mongoose": "^5.10.5",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
@@ -19,16 +21,15 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
   },
-  "nodemonConfig":{
+  "nodemonConfig": {
     "restartable": "rs",
     "ignore": [
       "node_modules/**/node_modules"
     ],
-    "delay": "2500",
-    "env":{
+    "delay": "10",
+    "env": {
       "NODE_EVN": "development",
       "PORT": 4000
     }
-
   }
 }
